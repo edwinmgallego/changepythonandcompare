@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService xmlns="http://www.ibm.com/mdm/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/mdm/schema MDMDomains.xsd">
+        <ResponseControl>
+                <ResultCode>SUCCESS</ResultCode>
+                <ServiceTime>1814</ServiceTime>
+                <DWLControl>
+                        <requesterName>UserBatch</requesterName>
+                        <requesterLanguage>300</requesterLanguage>
+                        <requesterLocale>es</requesterLocale>
+                        <requestTime>09-05-2019 03:45:10</requestTime>
+                        <clientTransactionName>MaintainServices</clientTransactionName>
+                        <clientSystemName>CRM-PS</clientSystemName>
+                        <externalCorrelationId>2</externalCorrelationId>
+                        <userRole>GeneralBatch</userRole>
+                        <requestID>251847</requestID>
+                </DWLControl>
+        </ResponseControl>
+        <TxResponse>
+                <RequestType>searchGrupoAvalPartyByIdentifier</RequestType>
+                <TxResult>
+                        <ResultCode>SUCCESS</ResultCode>
+                </TxResult>
+                <ResponseObject>
+                        <XAssociationListBObj>
+                                <ComponentID>1050094</ComponentID>
+                                <TCRMContractBObj>
+                                        <ContractIdPK>666753876164816166</ContractIdPK>
+                                        <CurrencyType>1000001</CurrencyType>
+                                        <CurrencyValue>Peso Colombiano</CurrencyValue>
+                                        <AdminContractId>634522222</AdminContractId>
+                                        <AdminSystemType>1020001</AdminSystemType>
+                                        <AdminSystemValue>CRM-PS</AdminSystemValue>
+                                        <ContractLastUpdateDate>2022-02-09 09:18:21.401917</ContractLastUpdateDate>
+                                        <ContractLastUpdateUser>batch user</ContractLastUpdateUser>
+                                        <ContractLastUpdateTxId>202253876164815927</ContractLastUpdateTxId>
+                                                                                <TCRMExtension>
+                                                <ExtendedObject>XContractBObjExt</ExtendedObject>
+                                                <XContractBObjExt>
+                                                        <XLastPeriod>2018-08-05 00:00:00.0</XLastPeriod>
+                                                </XContractBObjExt>
+                                        </TCRMExtension>
+
+                                        <TCRMContractComponentBObj>
+                                                <ContractComponentIdPK>666453876164823912</ContractComponentIdPK>
+                                                <ContractId>666753876164816166</ContractId>
+                                                <ContractStatusType>1010100</ContractStatusType>
+                                                <ContractStatusValue>A-Activo-Normal</ContractStatusValue>
+                                                <IssueDate>2016-05-20 00:00:00.0</IssueDate>
+                                                <ProductType>1020101002</ProductType>
+                                                <ProductValue>Cuenta de Ahorros Diamante</ProductValue>
+                                                <ContractComponentLastUpdateDate>2018-10-05 12:47:28.238</ContractComponentLastUpdateDate>
+                                                <ContractComponentLastUpdateUser>batch user</ContractComponentLastUpdateUser>
+                                                <ContractComponentLastUpdateTxId>202253876164815927</ContractComponentLastUpdateTxId>
+                                                <ExpiryDate>2020-05-20 00:00:00.0</ExpiryDate>
+                                                                                                <TCRMExtension>
+                                                        <ExtendedObject>XContractComponentBObjExt</ExtendedObject>
+                                                        <XContractComponentBObjExt>
+                                                                <XProdUpdateDate>2016-05-20 00:00:00.0</XProdUpdateDate>
+                                                        </XContractComponentBObjExt>
+                                                </TCRMExtension>
+
+                                                <TCRMContractPartyRoleBObj>
+                                                        <ContractRoleIdPK>661953876164827027</ContractRoleIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <ContractComponentId>666453876164823912</ContractComponentId>
+                                                        <RoleType>1000017</RoleType>
+                                                        <RoleValue>Amparado</RoleValue>
+                                                        <StartDate>2017-11-08 00:00:00.0</StartDate>
+                                                        <ContractPartyRoleLastUpdateDate>2018-10-05 12:47:28.269</ContractPartyRoleLastUpdateDate>
+                                                        <ContractPartyRoleLastUpdateUser>batch user</ContractPartyRoleLastUpdateUser>
+                                                        <ContractPartyRoleLastUpdateTxId>202253876164815927</ContractPartyRoleLastUpdateTxId>
+                                                                                                                <TCRMExtension>
+                                                                <ExtendedObject>XContractRoleBObjExt</ExtendedObject>
+                                                                <XContractRoleBObjExt>
+                                                                </XContractRoleBObjExt>
+                                                        </TCRMExtension>
+
+                                                        <ComponentID>1014011</ComponentID>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMContractPartyRoleBObj>
+                                                <ComponentID>1013958</ComponentID>
+                                                <DWLStatus>
+                                                        <Status>0</Status>
+                                                </DWLStatus>
+                                        </TCRMContractComponentBObj>
+                                        <ComponentID>1014060</ComponentID>
+                                        <DWLStatus>
+                                                <Status>0</Status>
+                                        </DWLStatus>
+                                </TCRMContractBObj>
+                                <TCRMContractBObj>
+                                        <ContractIdPK>668453875571644518</ContractIdPK>
+                                        <CurrencyType>1000001</CurrencyType>
+                                        <CurrencyValue>Peso Colombiano</CurrencyValue>
+                                        <AdminContractId>325689741258963</AdminContractId>
+                                        <AdminSystemType>1020001</AdminSystemType>
+                                        <AdminSystemValue>CRM-PS</AdminSystemValue>
+                                        <ContractLastUpdateDate>2022-02-09 09:18:21.401917</ContractLastUpdateDate>
+                                        <ContractLastUpdateUser>batch user</ContractLastUpdateUser>
+                                        <ContractLastUpdateTxId>610453875571644121</ContractLastUpdateTxId>
+                                        <TerminationDate>2000-06-04 00:00:00.0</TerminationDate>
+                                                                                <TCRMExtension>
+                                                <ExtendedObject>XContractBObjExt</ExtendedObject>
+                                                <XContractBObjExt>
+                                                </XContractBObjExt>
+                                        </TCRMExtension>
+
+                                        <TCRMContractComponentBObj>
+                                                <ContractComponentIdPK>666053875571646734</ContractComponentIdPK>
+                                                <ContractId>668453875571644518</ContractId>
+                                                <ContractStatusType>1030205</ContractStatusType>
+                                                <ContractStatusValue>CC-Terminada</ContractStatusValue>
+                                                <IssueDate>2001-06-04 00:00:00.0</IssueDate>
+                                                <ProductType>1020101004</ProductType>
+                                                <ProductValue>Ahorro puro</ProductValue>
+                                                <ContractComponentLastUpdateDate>2018-10-05 11:08:36.466</ContractComponentLastUpdateDate>
+                                                <ContractComponentLastUpdateUser>batch user</ContractComponentLastUpdateUser>
+                                                <ContractComponentLastUpdateTxId>610453875571644121</ContractComponentLastUpdateTxId>
+                                                <ExpiryDate>2019-09-06 00:00:00.0</ExpiryDate>
+                                                                                                <TCRMExtension>
+                                                        <ExtendedObject>XContractComponentBObjExt</ExtendedObject>
+                                                        <XContractComponentBObjExt>
+                                                        </XContractComponentBObjExt>
+                                                </TCRMExtension>
+
+                                                <TCRMContractPartyRoleBObj>
+                                                        <ContractRoleIdPK>669653875571648439</ContractRoleIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <ContractComponentId>666053875571646734</ContractComponentId>
+                                                        <RoleType>1000002</RoleType>
+                                                        <RoleValue>Titular cuenta conjunta</RoleValue>
+                                                        <StartDate>2018-10-05 11:08:36.483</StartDate>
+                                                        <ContractPartyRoleLastUpdateDate>2018-10-05 11:08:36.483</ContractPartyRoleLastUpdateDate>
+                                                        <ContractPartyRoleLastUpdateUser>batch user</ContractPartyRoleLastUpdateUser>
+                                                        <ContractPartyRoleLastUpdateTxId>610453875571644121</ContractPartyRoleLastUpdateTxId>
+                                                                                                                <TCRMExtension>
+                                                                <ExtendedObject>XContractRoleBObjExt</ExtendedObject>
+                                                                <XContractRoleBObjExt>
+                                                                </XContractRoleBObjExt>
+                                                        </TCRMExtension>
+
+                                                        <ComponentID>1014011</ComponentID>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMContractPartyRoleBObj>
+                                                <ComponentID>1013958</ComponentID>
+                                                <DWLStatus>
+                                                        <Status>0</Status>
+                                                </DWLStatus>
+                                        </TCRMContractComponentBObj>
+                                        <ComponentID>1014060</ComponentID>
+                                        <DWLStatus>
+                                                <Status>0</Status>
+                                        </DWLStatus>
+                                </TCRMContractBObj>
+                                <TCRMContractBObj>
+                                        <ContractIdPK>664852605154670191</ContractIdPK>
+                                        <CurrencyType>1000001</CurrencyType>
+                                        <CurrencyValue>Peso Colombiano</CurrencyValue>
+                                        <AdminContractId>InitialLoad3209</AdminContractId>
+                                        <AdminSystemType>1020031</AdminSystemType>
+                                        <AdminSystemValue>LIBRANZAS</AdminSystemValue>
+                                        <ContractLastUpdateDate>2022-02-09 09:18:21.401917</ContractLastUpdateDate>
+                                        <ContractLastUpdateUser>batch user</ContractLastUpdateUser>
+                                        <ContractLastUpdateTxId>904852605154668669</ContractLastUpdateTxId>
+                                                                                <TCRMExtension>
+                                                <ExtendedObject>XContractBObjExt</ExtendedObject>
+                                                <XContractBObjExt>
+                                                        <XAcctOfficeCodeType>1020009</XAcctOfficeCodeType>
+                                                        <XAcctOfficeCodeValue>TEUSAQUILLO</XAcctOfficeCodeValue>
+                                                </XContractBObjExt>
+                                        </TCRMExtension>
+
+                                        <TCRMContractComponentBObj>
+                                                <ContractComponentIdPK>664752605154674188</ContractComponentIdPK>
+                                                <ContractId>664852605154670191</ContractId>
+                                                <ContractStatusType>1010000</ContractStatusType>
+                                                <ContractStatusValue>Activo</ContractStatusValue>
+                                                <IssueDate>2005-09-24 00:00:00.0</IssueDate>
+                                                <ProductType>1020101001</ProductType>
+                                                <ProductValue>Cuenta Pensión</ProductValue>
+                                                <ContractComponentLastUpdateDate>2018-05-11 10:12:26.74</ContractComponentLastUpdateDate>
+                                                <ContractComponentLastUpdateUser>batch user</ContractComponentLastUpdateUser>
+                                                <ContractComponentLastUpdateTxId>904852605154668669</ContractComponentLastUpdateTxId>
+                                                                                                <TCRMExtension>
+                                                        <ExtendedObject>XContractComponentBObjExt</ExtendedObject>
+                                                        <XContractComponentBObjExt>
+                                                        </XContractComponentBObjExt>
+                                                </TCRMExtension>
+
+                                                <TCRMContractPartyRoleBObj>
+                                                        <ContractRoleIdPK>664052605154683498</ContractRoleIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <ContractComponentId>664752605154674188</ContractComponentId>
+                                                        <RoleType>1000001</RoleType>
+                                                        <RoleValue>Titular cuenta principal</RoleValue>
+                                                        <StartDate>2017-11-10 00:00:00.0</StartDate>
+                                                        <ContractPartyRoleLastUpdateDate>2018-05-11 10:12:26.833</ContractPartyRoleLastUpdateDate>
+                                                        <ContractPartyRoleLastUpdateUser>batch user</ContractPartyRoleLastUpdateUser>
+                                                        <ContractPartyRoleLastUpdateTxId>904852605154668669</ContractPartyRoleLastUpdateTxId>
+                                                                                                                <TCRMExtension>
+                                                                <ExtendedObject>XContractRoleBObjExt</ExtendedObject>
+                                                                <XContractRoleBObjExt>
+                                                                        <XBeneficiaryPercent>0.524000000</XBeneficiaryPercent>
+                                                                </XContractRoleBObjExt>
+                                                        </TCRMExtension>
+
+                                                        <ComponentID>1014011</ComponentID>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMContractPartyRoleBObj>
+                                                <ComponentID>1013958</ComponentID>
+                                                <DWLStatus>
+                                                        <Status>0</Status>
+                                                </DWLStatus>
+                                        </TCRMContractComponentBObj>
+                                        <ComponentID>1014060</ComponentID>
+                                        <DWLStatus>
+                                                <Status>0</Status>
+                                        </DWLStatus>
+                                </TCRMContractBObj>
+                                <TCRMContractBObj>
+                                        <ContractIdPK>665452475637572650</ContractIdPK>
+                                        <CurrencyType>1000001</CurrencyType>
+                                        <CurrencyValue>Peso Colombiano</CurrencyValue>
+                                        <AdminContractId>4859265004015412924</AdminContractId>
+                                        <AdminSystemType>1000003</AdminSystemType>
+                                        <AdminSystemValue>SAP-ERP</AdminSystemValue>
+                                        <ContractLastUpdateDate>2022-02-09 09:18:21.401917</ContractLastUpdateDate>
+                                        <ContractLastUpdateUser>batch user</ContractLastUpdateUser>
+                                        <ContractLastUpdateTxId>652454386574412880</ContractLastUpdateTxId>
+                                        <EndDate>2014-03-31 00:00:00.0</EndDate>
+                                        <TerminationDate>2014-03-31 00:00:00.0</TerminationDate>
+                                                                                <TCRMExtension>
+                                                <ExtendedObject>XContractBObjExt</ExtendedObject>
+                                                <XContractBObjExt>
+                                                        <XAcctOfficeCodeType>1020280</XAcctOfficeCodeType>
+                                                        <XAcctOfficeCodeValue>MANIZALES</XAcctOfficeCodeValue>
+                                                </XContractBObjExt>
+                                        </TCRMExtension>
+
+                                        <TCRMContractComponentBObj>
+                                                <ContractComponentIdPK>665752475637577999</ContractComponentIdPK>
+                                                <ContractId>665452475637572650</ContractId>
+                                                <ContractStatusType>1010102</ContractStatusType>
+                                                <ContractStatusValue>A-No redimido</ContractStatusValue>
+                                                <IssueDate>2012-07-27 00:00:00.0</IssueDate>
+                                                <ProductType>1020201000</ProductType>
+                                                <ProductValue>Tarjetas de Crédito</ProductValue>
+                                                <ContractComponentLastUpdateDate>2018-12-03 14:35:47.125</ContractComponentLastUpdateDate>
+                                                <ContractComponentLastUpdateUser>batch user</ContractComponentLastUpdateUser>
+                                                <ContractComponentLastUpdateTxId>652454386574412880</ContractComponentLastUpdateTxId>
+                                                <ExpiryDate>2014-03-31 00:00:00.0</ExpiryDate>
+                                                                                                <TCRMExtension>
+                                                        <ExtendedObject>XContractComponentBObjExt</ExtendedObject>
+                                                        <XContractComponentBObjExt>
+                                                        </XContractComponentBObjExt>
+                                                </TCRMExtension>
+
+                                                <TCRMContractPartyRoleBObj>
+                                                        <ContractRoleIdPK>664452475637585034</ContractRoleIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <ContractComponentId>665752475637577999</ContractComponentId>
+                                                        <RoleType>1000001</RoleType>
+                                                        <RoleValue>Titular cuenta principal</RoleValue>
+                                                        <StartDate>2017-11-15 00:00:00.0</StartDate>
+                                                        <ContractPartyRoleLastUpdateDate>2018-12-03 14:35:47.236</ContractPartyRoleLastUpdateDate>
+                                                        <ContractPartyRoleLastUpdateUser>batch user</ContractPartyRoleLastUpdateUser>
+                                                        <ContractPartyRoleLastUpdateTxId>652454386574412880</ContractPartyRoleLastUpdateTxId>
+                                                                                                                <TCRMExtension>
+                                                                <ExtendedObject>XContractRoleBObjExt</ExtendedObject>
+                                                                <XContractRoleBObjExt>
+                                                                </XContractRoleBObjExt>
+                                                        </TCRMExtension>
+
+                                                        <ComponentID>1014011</ComponentID>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMContractPartyRoleBObj>
+                                                <ComponentID>1013958</ComponentID>
+                                                <DWLStatus>
+                                                        <Status>0</Status>
+                                                </DWLStatus>
+                                        </TCRMContractComponentBObj>
+                                        <ComponentID>1014060</ComponentID>
+                                        <DWLStatus>
+                                                <Status>0</Status>
+                                        </DWLStatus>
+                                </TCRMContractBObj>
+                                <TCRMContractBObj>
+                                        <ContractIdPK>664852658246105383</ContractIdPK>
+                                        <CurrencyType>1000001</CurrencyType>
+                                        <CurrencyValue>Peso Colombiano</CurrencyValue>
+                                        <AdminContractId>JIMMYTEST2018MAY17</AdminContractId>
+                                        <AdminSystemType>1000006</AdminSystemType>
+                                        <AdminSystemValue>TC-Firstvision</AdminSystemValue>
+                                        <ContractLastUpdateDate>2022-02-09 09:18:21.401917</ContractLastUpdateDate>
+                                        <ContractLastUpdateUser>batch user</ContractLastUpdateUser>
+                                        <ContractLastUpdateTxId>234752658661567193</ContractLastUpdateTxId>
+                                        <EndDate>2020-10-26 18:25:46.0</EndDate>
+                                                                                <TCRMExtension>
+                                                <ExtendedObject>XContractBObjExt</ExtendedObject>
+                                                <XContractBObjExt>
+                                                        <XAcctOfficeCodeType>1020009</XAcctOfficeCodeType>
+                                                        <XAcctOfficeCodeValue>TEUSAQUILLO</XAcctOfficeCodeValue>
+                                                </XContractBObjExt>
+                                        </TCRMExtension>
+
+                                        <TCRMContractComponentBObj>
+                                                <ContractComponentIdPK>667252658246107084</ContractComponentIdPK>
+                                                <ContractId>664852658246105383</ContractId>
+                                                <ContractStatusType>1010000</ContractStatusType>
+                                                <ContractStatusValue>Activo</ContractStatusValue>
+                                                <IssueDate>2005-09-24 00:00:00.0</IssueDate>
+                                                <ProductType>1020101001</ProductType>
+                                                <ProductValue>Cuenta Pensión</ProductValue>
+                                                <ContractComponentLastUpdateDate>2018-05-17 14:50:15.708</ContractComponentLastUpdateDate>
+                                                <ContractComponentLastUpdateUser>batch user</ContractComponentLastUpdateUser>
+                                                <ContractComponentLastUpdateTxId>234752658661567193</ContractComponentLastUpdateTxId>
+                                                                                                <TCRMExtension>
+                                                        <ExtendedObject>XContractComponentBObjExt</ExtendedObject>
+                                                        <XContractComponentBObjExt>
+                                                        </XContractComponentBObjExt>
+                                                </TCRMExtension>
+
+                                                <TCRMContractPartyRoleBObj>
+                                                        <ContractRoleIdPK>669452658246108018</ContractRoleIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <ContractComponentId>667252658246107084</ContractComponentId>
+                                                        <RoleType>1000001</RoleType>
+                                                        <RoleValue>Titular cuenta principal</RoleValue>
+                                                        <StartDate>2017-11-10 00:00:00.0</StartDate>
+                                                        <ContractPartyRoleLastUpdateDate>2018-05-17 14:50:15.711</ContractPartyRoleLastUpdateDate>
+                                                        <ContractPartyRoleLastUpdateUser>batch user</ContractPartyRoleLastUpdateUser>
+                                                        <ContractPartyRoleLastUpdateTxId>234752658661567193</ContractPartyRoleLastUpdateTxId>
+                                                                                                                <TCRMExtension>
+                                                                <ExtendedObject>XContractRoleBObjExt</ExtendedObject>
+                                                                <XContractRoleBObjExt>
+                                                                        <XBeneficiaryPercent>0.524000000</XBeneficiaryPercent>
+                                                                </XContractRoleBObjExt>
+                                                        </TCRMExtension>
+
+                                                        <ComponentID>1014011</ComponentID>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMContractPartyRoleBObj>
+                                                <ComponentID>1013958</ComponentID>
+                                                <DWLStatus>
+                                                        <Status>0</Status>
+                                                </DWLStatus>
+                                        </TCRMContractComponentBObj>
+                                        <ComponentID>1014060</ComponentID>
+                                        <DWLStatus>
+                                                <Status>0</Status>
+                                        </DWLStatus>
+                                </TCRMContractBObj>
+                                <XPartyAssociationBObj>
+                                        <ComponentID>1020026</ComponentID>
+                                        <TCRMPersonBObj>
+                                                <PartyId>663252164648749265</PartyId>
+                                                <DisplayName>GILMA BRICEÑO</DisplayName>
+                                                <PartyType>P</PartyType>
+                                                <CreatedDate>2018-03-21 10:34:47.483</CreatedDate>
+                                                <SinceDate>1957-01-01 00:00:00.0</SinceDate>
+                                                <SourceIdentifierType>1020001</SourceIdentifierType>
+                                                <SourceIdentifierValue>CRM-PS</SourceIdentifierValue>
+                                                <PartyLastUpdateDate>2018-03-21 10:34:47.491</PartyLastUpdateDate>
+                                                <PartyLastUpdateUser>batch user</PartyLastUpdateUser>
+                                                <PartyLastUpdateTxId>652252164648748319</PartyLastUpdateTxId>
+                                                <PersonPartyId>663252164648749265</PersonPartyId>
+                                                <BirthDate>1969-06-02 00:00:00.0</BirthDate>
+                                                <BirthPlaceType>1000037</BirthPlaceType>
+                                                <BirthPlaceValue>Colombia</BirthPlaceValue>
+                                                <GenderType>F</GenderType>
+                                                <HighestEducationType>1000001</HighestEducationType>
+                                                <HighestEducationValue>Primaria</HighestEducationValue>
+                                                <NumberOfChildren>0</NumberOfChildren>
+                                                <MaritalStatusType>1000002</MaritalStatusType>
+                                                <MaritalStatusValue>Soltero(a)</MaritalStatusValue>
+                                                <PartyActiveIndicator>Y</PartyActiveIndicator>
+                                                <PersonLastUpdateDate>2018-03-21 10:34:47.492</PersonLastUpdateDate>
+                                                <PersonLastUpdateUser>batch user</PersonLastUpdateUser>
+                                                <PersonLastUpdateTxId>652252164648748319</PersonLastUpdateTxId>
+                                                                                                <TCRMExtension>
+                                                        <ExtendedObject>XPersonBObjExt</ExtendedObject>
+                                                        <XPersonBObjExt>
+                                                                <XCustUpdateDate>2004-03-17 00:00:00.0</XCustUpdateDate>
+                                                                <XProfessionType>1000999</XProfessionType>
+                                                                <XProfessionValue>NO TIENE PROFESION</XProfessionValue>
+                                                                <XHousingType>1000003</XHousingType>
+                                                                <XHousingValue>Arrendada</XHousingValue>
+                                                                <XLastSalary>0.00</XLastSalary>
+                                                                <XIncTaxDeclIndicator>N</XIncTaxDeclIndicator>
+                                                        </XPersonBObjExt>
+                                                </TCRMExtension>
+
+                                                <TCRMPartyAddressBObj>
+                                                        <PartyAddressIdPK>665652605154634121</PartyAddressIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <AddressId>666452605154628016</AddressId>
+                                                        <AddressUsageType>1000011</AddressUsageType>
+                                                        <AddressUsageValue>Notificación</AddressUsageValue>
+                                                        <StartDate>2018-05-09 00:00:00.0</StartDate>
+                                                        <PreferredAddressIndicator>N</PreferredAddressIndicator>
+                                                        <SourceIdentifierType>1000006</SourceIdentifierType>
+                                                        <SourceIdentifierValue>TC-Firstvision</SourceIdentifierValue>
+                                                        <AddressGroupLastUpdateDate>2018-05-11 10:12:26.355</AddressGroupLastUpdateDate>
+                                                        <AddressGroupLastUpdateUser>batch user</AddressGroupLastUpdateUser>
+                                                        <AddressGroupLastUpdateTxId>680852605154626255</AddressGroupLastUpdateTxId>
+                                                        <LocationGroupLastUpdateDate>2018-05-11 10:12:26.34</LocationGroupLastUpdateDate>
+                                                        <LocationGroupLastUpdateUser>batch user</LocationGroupLastUpdateUser>
+                                                        <LocationGroupLastUpdateTxId>680852605154626255</LocationGroupLastUpdateTxId>
+                                                        <TCRMAddressBObj>
+                                                                <AddressIdPK>666452605154628016</AddressIdPK>
+                                                                <AddressLineOne>1-I</AddressLineOne>
+                                                                <AddressLineTwo>2-II</AddressLineTwo>
+                                                                <AddressLineThree>3-III</AddressLineThree>
+                                                                <City>Tunja</City>
+                                                                <ZipPostalCode>17</ZipPostalCode>
+                                                                <ProvinceStateType>1000011</ProvinceStateType>
+                                                                <ProvinceStateValue>Bogotá, D. C.</ProvinceStateValue>
+                                                                <CountryType>1000037</CountryType>
+                                                                <CountryValue>Colombia</CountryValue>
+                                                                <AddressLastUpdateDate>2018-05-11 10:12:26.279</AddressLastUpdateDate>
+                                                                <AddressLastUpdateUser>batch user</AddressLastUpdateUser>
+                                                                <AddressLastUpdateTxId>680852605154626255</AddressLastUpdateTxId>
+                                                                                                                                <TCRMExtension>
+                                                                        <ExtendedObject>XAddressBObjExt</ExtendedObject>
+                                                                        <XAddressBObjExt>
+                                                                        </XAddressBObjExt>
+                                                                </TCRMExtension>
+
+                                                                <ComponentID>1013671</ComponentID>
+                                                                <DWLStatus>
+                                                                        <Status>0</Status>
+                                                                </DWLStatus>
+                                                        </TCRMAddressBObj>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMPartyAddressBObj>
+                                                <TCRMPartyContactMethodBObj>
+                                                        <PartyContactMethodIdPK>662153875571623499</PartyContactMethodIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <ContactMethodId>662253875571618816</ContactMethodId>
+                                                        <ContactMethodUsageType>1200006</ContactMethodUsageType>
+                                                        <ContactMethodUsageValue>Email envió extracto</ContactMethodUsageValue>
+                                                        <PreferredContactMethodIndicator>Y</PreferredContactMethodIndicator>
+                                                        <StartDate>2014-04-04 00:00:00.0</StartDate>
+                                                        <SourceIdentifierType>1020001</SourceIdentifierType>
+                                                        <SourceIdentifierValue>CRM-PS</SourceIdentifierValue>
+                                                        <ContactMethodGroupLastUpdateDate>2018-10-05 11:08:36.286</ContactMethodGroupLastUpdateDate>
+                                                        <ContactMethodGroupLastUpdateUser>batch user</ContactMethodGroupLastUpdateUser>
+                                                        <ContactMethodGroupLastUpdateTxId>795253875571618792</ContactMethodGroupLastUpdateTxId>
+                                                        <LocationGroupLastUpdateDate>2018-10-05 11:08:36.233</LocationGroupLastUpdateDate>
+                                                        <LocationGroupLastUpdateUser>batch user</LocationGroupLastUpdateUser>
+                                                        <LocationGroupLastUpdateTxId>795253875571618792</LocationGroupLastUpdateTxId>
+                                                        <TCRMContactMethodBObj>
+                                                                <ContactMethodIdPK>662253875571618816</ContactMethodIdPK>
+                                                                <ReferenceNumber>PRUEBASOCHO@PRUEBAS.COM</ReferenceNumber>
+                                                                <ContactMethodType>1200000</ContactMethodType>
+                                                                <ContactMethodValue>Correo electrónico</ContactMethodValue>
+                                                                <ContactMethodLastUpdateDate>2018-10-05 11:08:36.187</ContactMethodLastUpdateDate>
+                                                                <ContactMethodLastUpdateUser>batch user</ContactMethodLastUpdateUser>
+                                                                <ContactMethodLastUpdateTxId>795253875571618792</ContactMethodLastUpdateTxId>
+                                                                <DWLStatus>
+                                                                        <Status>0</Status>
+                                                                </DWLStatus>
+                                                        </TCRMContactMethodBObj>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMPartyContactMethodBObj>
+                                                <TCRMPartyIdentificationBObj>
+                                                        <IdentificationIdPK>661552164648750946</IdentificationIdPK>
+                                                        <PartyId>663252164648749265</PartyId>
+                                                        <IdentificationType>1000003</IdentificationType>
+                                                        <IdentificationValue>Cédula de Ciudadanía</IdentificationValue>
+                                                        <IdentificationNumber>1004375397</IdentificationNumber>
+                                                        <StartDate>2017-11-09 00:00:00.0</StartDate>
+                                                        <SourceIdentifierType>1020001</SourceIdentifierType>
+                                                        <SourceIdentifierValue>CRM-PS</SourceIdentifierValue>
+                                                        <PartyIdentificationLastUpdateDate>2018-03-21 10:34:47.508</PartyIdentificationLastUpdateDate>
+                                                        <PartyIdentificationLastUpdateUser>batch user</PartyIdentificationLastUpdateUser>
+                                                        <PartyIdentificationLastUpdateTxId>652252164648748319</PartyIdentificationLastUpdateTxId>
+                                                                                                                <TCRMExtension>
+                                                                <ExtendedObject>XIdentifierBObjExt</ExtendedObject>
+                                                                <XIdentifierBObjExt>
+                                                                        <XIssueDate>1957-04-13 00:00:00.0</XIssueDate>
+                                                                        <XIssueCountryType>1000037</XIssueCountryType>
+                                                                        <XIssueCountryValue>Colombia</XIssueCountryValue>
+                                                                </XIdentifierBObjExt>
+                                                        </TCRMExtension>
+
+                                                        <ComponentID>1013782</ComponentID>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMPartyIdentificationBObj>
+                                                <TCRMPersonNameBObj>
+                                                        <PersonNameIdPK>664052164648750658</PersonNameIdPK>
+                                                        <NameUsageType>1</NameUsageType>
+                                                        <NameUsageValue>Legal</NameUsageValue>
+                                                        <GivenNameOne>GILMA</GivenNameOne>
+                                                        <StdGivenNameOne>GILMA</StdGivenNameOne>
+                                                        <GivenNameFour>ROCA</GivenNameFour>
+                                                        <StdGivenNameFour>ROCA</StdGivenNameFour>
+                                                        <LastName>BRICEÑO</LastName>
+                                                        <StdLastName>BRICEÑO</StdLastName>
+                                                        <PersonPartyId>663252164648749265</PersonPartyId>
+                                                        <StartDate>2017-11-09 00:00:00.0</StartDate>
+                                                        <SourceIdentifierType>1020001</SourceIdentifierType>
+                                                        <SourceIdentifierValue>CRM-PS</SourceIdentifierValue>
+                                                        <PersonNameLastUpdateDate>2018-03-21 10:34:47.505</PersonNameLastUpdateDate>
+                                                        <PersonNameLastUpdateUser>batch user</PersonNameLastUpdateUser>
+                                                        <PersonNameLastUpdateTxId>652252164648748319</PersonNameLastUpdateTxId>
+                                                        <LastUpdatedBy>batch user</LastUpdatedBy>
+                                                        <LastUpdatedDate>2018-03-21 10:34:47.505</LastUpdatedDate>
+                                                        <DWLStatus>
+                                                                <Status>0</Status>
+                                                        </DWLStatus>
+                                                </TCRMPersonNameBObj>
+                                                <ComponentID>1013185</ComponentID>
+                                                <DWLStatus>
+                                                        <Status>0</Status>
+                                                </DWLStatus>
+                                        </TCRMPersonBObj>
+                                </XPartyAssociationBObj>
+                        </XAssociationListBObj>
+                </ResponseObject>
+        </TxResponse>
+</TCRMService>

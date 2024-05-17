@@ -1,0 +1,242 @@
+{
+    "last": {
+        "href": "https:\/\/cpd-cp4d-instance-dev.apps.rosa-dq-cp4d-1.qx6w.p1.openshiftapps.com\/1702569026449682\/mdm\/v1\/search?offset=0&limit=10"
+    },
+    "offset": 0,
+    "total_count": 1,
+    "limit": 10,
+    "is_exact_count": true,
+    "results": [
+        {
+            "": "person",
+            "system_attributes": {
+                "created_user": "cpadmin",
+                "last_updated_user": "cpadmin",
+                "created_date": "1715269467239",
+                "last_updated_date": "1715269467239"
+            },
+            "record_number": 16001960,
+            "attributes": {
+                "gender": {
+                    "value": "F"
+                },
+                "record_last_updated": "1715269467239",
+                "birth_date": {
+                    "value": "1969-06-02 00:00:00"
+                },
+                "marital_status_type": {
+                    "value": "1000002"
+                },
+                "x_cust_update_date": {
+                    "value": "2004-03-17 00:00:00"
+                },
+                "email_envio_extracto": {
+                    "email_id": "PRUEBASOCHO@PRUEBAS.COM",
+                    "record_start": "2014-04-04 00:00:00",
+                    "contact_method_source_identifier_value": "CRM-PS",
+                    "usage_type": "1200006",
+                    "attribute_last_updated": "1538737716286",
+                    "contact_method_type": "1200000",
+                    "contact_method_value": "Correo electrÃ³nico",
+                    "usage_value": "Email enviÃ³ extracto",
+                    "contact_method_source_identifier_type": "1020001",
+                    "preferred": "Y"
+                },
+                "telefono_notificacion": [
+                    {
+                        "contact_method_source_identifier_value": "TC-Firstvision",
+                        "phone_country_code": "57",
+                        "attribute_last_updated": "1526564460850",
+                        "contact_method_source_identifier_type": "1000006",
+                        "record_start": "2018-01-01 00:00:00",
+                        "phone_exchange": "07",
+                        "usage_type": "1100010",
+                        "base_phone_number": "3002064894",
+                        "contact_method_type": "1100000",
+                        "phone_number": "3002064894",
+                        "contact_method_value": "NÃºmero de telÃ©fono",
+                        "usage_value": "TelÃ©fono notificaciÃ³n",
+                        "phone_extension": "01",
+                        "preferred": "N",
+                        "phone_area_code": "08",
+                        "record_end": "2018-05-16 23:59:59"
+                    },
+                    {
+                        "contact_method_source_identifier_value": "TC-Firstvision",
+                        "phone_country_code": "57",
+                        "attribute_last_updated": "1526568615615",
+                        "contact_method_source_identifier_type": "1000006",
+                        "record_start": "2018-01-01 00:00:00",
+                        "phone_exchange": "07",
+                        "usage_type": "1100010",
+                        "base_phone_number": "3002064894",
+                        "contact_method_type": "1100000",
+                        "phone_number": "3002064894",
+                        "contact_method_value": "NÃºmero de telÃ©fono",
+                        "usage_value": "TelÃ©fono notificaciÃ³n",
+                        "phone_extension": "01",
+                        "preferred": "N",
+                        "phone_area_code": "08",
+                        "record_end": "2018-05-17 14:50:15.544"
+                    },
+                    {
+                        "contact_method_source_identifier_value": "TC-Firstvision",
+                        "phone_country_code": "57",
+                        "attribute_last_updated": "1526565539053",
+                        "contact_method_source_identifier_type": "1000006",
+                        "record_start": "2018-01-01 00:00:00",
+                        "phone_exchange": "07",
+                        "usage_type": "1100010",
+                        "base_phone_number": "3002064894",
+                        "contact_method_type": "1100000",
+                        "phone_number": "3002064894",
+                        "contact_method_value": "NÃºmero de telÃ©fono",
+                        "usage_value": "TelÃ©fono notificaciÃ³n",
+                        "phone_extension": "01",
+                        "preferred": "N",
+                        "phone_area_code": "08",
+                        "record_end": "2018-05-17 13:58:58.893"
+                    },
+                    {
+                        "contact_method_source_identifier_value": "TC-Firstvision",
+                        "phone_country_code": "57",
+                        "attribute_last_updated": "1526566035088",
+                        "contact_method_source_identifier_type": "1000006",
+                        "record_start": "2018-01-01 00:00:00",
+                        "phone_exchange": "07",
+                        "usage_type": "1100010",
+                        "base_phone_number": "3002064894",
+                        "contact_method_type": "1100000",
+                        "phone_number": "3002064894",
+                        "contact_method_value": "NÃºmero de telÃ©fono",
+                        "usage_value": "TelÃ©fono notificaciÃ³n",
+                        "phone_extension": "01",
+                        "preferred": "N",
+                        "phone_area_code": "08",
+                        "record_end": "2018-05-17 14:07:14.981"
+                    }
+                ],
+                "since_date": {
+                    "value": "1957-01-01 00:00:00"
+                },
+                "collection_id": "20ecc613-27d5-3105-9dc5-9bbd7899dddb",
+                "record_last_updated_user": {
+                    "value": "batch user"
+                },
+                "birth_place_type": {
+                    "value": "1000037"
+                },
+                "cedula_de_ciudadania": {
+                    "record_start": "2017-11-09 00:00:00",
+                    "identification_source_identifier_type": "1020001",
+                    "identification_number": "1004375397",
+                    "x_issue_country_value": "Colombia",
+                    "attribute_last_updated": "1521628487508",
+                    "x_issue_country_type": "1000037",
+                    "identification_type": "1000003",
+                    "identification_value": "CÃ©dula de CiudadanÃ­a",
+                    "identification_source_identifier_value": "CRM-PS",
+                    "x_issue_date": "1957-04-13 00:00:00"
+                },
+                "birth_place_value": {
+                    "value": "Colombia"
+                },
+                "legal_name": {
+                    "record_start": "2017-11-09 00:00:00",
+                    "usage_type": "1",
+                    "attribute_last_updated": "1521628487505",
+                    "last_name": "BRICEÃ\u0091O",
+                    "person_name_source_identifier_type": "1020001",
+                    "usage_value": "Legal",
+                    "given_name": "GILMA",
+                    "given_name4": "ROCA",
+                    "person_name_source_identifier_value": "CRM-PS"
+                },
+                "person_source_identifier_type": {
+                    "value": "1020001"
+                },
+                "number_of_children": {
+                    "value": "0"
+                },
+                "x_profession_value": {
+                    "value": "NO TIENE PROFESION"
+                },
+                "x_housing_value": {
+                    "value": "Arrendada"
+                },
+                "person_source_identifier_value": {
+                    "value": "CRM-PS"
+                },
+                "marital_status_value": {
+                    "value": "Soltero(a)"
+                },
+                "x_inc_tax_decl_indicator": {
+                    "value": "N"
+                },
+                "consent": {
+                    "profile_system_type": "1020001",
+                    "provision_type": "Provision",
+                    "provision_encode": "base64",
+                    "language_agreed_in_type": "300",
+                    "attribute_last_updated": "1657279214458",
+                    "enforcement_type": "0",
+                    "provision_content": "W3sicmVjb3JkSWQiOiI2NjkyNjU3Mjk3MjE0NTE5NTUiLCJDb250ZW50IjoiVERDLCBHaXJvcywgTGlicmUgSW52ZXJzacOzbiwgTGlicmFuemFzLCBDdWVudGEgQWhvcnJvcyIsInJlY29yZExhc3RVcGRhdGVkIjoiMjAyMi0wNy0wOCAxMToyMDoxNC41MTgiLCJQcm92aXNpb25UeXBlIjoiMTAwMDAwMiIsInJlY29yZExhc3RVcGRhdGVkVXNlciI6ImJhdGNoIHVzZXIiLCJQcm92aXNpb25WYWx1ZSI6IkVudGlkYWQiLCJyZWNvcmRTdGFydCI6IjIwMjItMDctMDggMTE6MjA6MTMuMTU4IiwiQ3JlYXRlRGF0ZSI6IjIwMjItMDctMDggMTE6MjA6MTMuMTU4In1d",
+                    "agree_ind": "1",
+                    "record_start": "2021-02-09 00:00:00",
+                    "consent_owner_id": "663252164648749265",
+                    "source_ident_value": "CRM-PS",
+                    "language_agreed_in_value": "EspaÃ±ol",
+                    "source_ident_type": "1020001",
+                    "profile_system_value": "CRM-PS",
+                    "create_date": "2021-02-03 00:00:00"
+                },
+                "display_name": {
+                    "value": "GILMA BRICEÃ\u0091O"
+                },
+                "notificacion": {
+                    "country": "Colombia",
+                    "city": "Tunja",
+                    "zip_postal_code": "17",
+                    "address_source_identifier_type": "1000006",
+                    "attribute_last_updated": "1526033546355",
+                    "province_state": "BogotÃ¡, D. C.",
+                    "country_type": "1000037",
+                    "record_start": "2018-05-09 00:00:00",
+                    "address_line3": "3-III",
+                    "address_line2": "2-II",
+                    "address_line1": "1-I",
+                    "usage_type": "1000011",
+                    "province_state_type": "1000011",
+                    "usage_value": "NotificaciÃ³n",
+                    "preferred": "N",
+                    "address_source_identifier_value": "TC-Firstvision"
+                },
+                "record_source": "dev-bpop-source-endpoint",
+                "highest_education_type": {
+                    "value": "1000001"
+                },
+                "x_last_salary": {
+                    "value": "0"
+                },
+                "record_id": "663252164648749265",
+                "record_start": {
+                    "value": "2018-03-21 10:34:47.483"
+                },
+                "x_profession_type": {
+                    "value": "1000999"
+                },
+                "x_housing_type": {
+                    "value": "1000003"
+                },
+                "highest_education_value": {
+                    "value": "Primaria"
+                }
+            },
+            "id": "16001960",
+            "type": "record"
+        }
+    ],
+    "first": {
+        "href": "https:\/\/cpd-cp4d-instance-dev.apps.rosa-dq-cp4d-1.qx6w.p1.openshiftapps.com\/1702569026449682\/mdm\/v1\/search?offset=0&limit=10"
+    }
+}
