@@ -1,0 +1,517 @@
+{
+    "TCRMService": {
+        "-xmlns": "http://www.ibm.com/mdm/schema",
+        "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "-xsi:schemaLocation": "http://www.ibm.com/mdm/schema MDMDomains.xsd",
+        "ResponseControl": {
+            "ResultCode": "SUCCESS",
+            "ServiceTime": "1814",
+            "DWLControl": {
+                "requesterName": "UserBatch",
+                "requesterLanguage": "300",
+                "requesterLocale": "es",
+                "requestTime": "09-05-2019 03:45:10",
+                "clientTransactionName": "MaintainServices",
+                "clientSystemName": "CRM-PS",
+                "externalCorrelationId": "2",
+                "userRole": "GeneralBatch",
+                "requestID": "251847"
+            }
+        },
+        "TxResponse": {
+            "RequestType": "searchGrupoAvalPartyByIdentifier",
+            "TxResult": {
+                "ResultCode": "SUCCESS"
+            },
+            "ResponseObject": {
+                "XAssociationListBObj": {
+                    "ComponentID": "1050094",
+                    "TCRMContractBObj": [
+                        {
+                            "ContractIdPK": "666753876164816166",
+                            "CurrencyType": "1000001",
+                            "CurrencyValue": "Peso Colombiano",
+                            "AdminContractId": "634522222",
+                            "AdminSystemType": "1020001",
+                            "AdminSystemValue": "CRM-PS",
+                            "ContractLastUpdateDate": "2022-02-09 09:18:21.401917",
+                            "ContractLastUpdateUser": "batch user",
+                            "ContractLastUpdateTxId": "202253876164815927",
+                            "TCRMExtension": {
+                                "ExtendedObject": "XContractBObjExt",
+                                "XContractBObjExt": {
+                                    "XLastPeriod": "2018-08-05 00:00:00.0"
+                                }
+                            },
+                            "TCRMContractComponentBObj": {
+                                "ContractComponentIdPK": "666453876164823912",
+                                "ContractId": "666753876164816166",
+                                "ContractStatusType": "1010100",
+                                "ContractStatusValue": "A-Activo-Normal",
+                                "IssueDate": "2016-05-20 00:00:00.0",
+                                "ProductType": "1020101002",
+                                "ProductValue": "Cuenta de Ahorros Diamante",
+                                "ContractComponentLastUpdateDate": "2018-10-05 12:47:28.238",
+                                "ContractComponentLastUpdateUser": "batch user",
+                                "ContractComponentLastUpdateTxId": "202253876164815927",
+                                "ExpiryDate": "2020-05-20 00:00:00.0",
+                                "TCRMExtension": {
+                                    "ExtendedObject": "XContractComponentBObjExt",
+                                    "XContractComponentBObjExt": {
+                                        "XProdUpdateDate": "2016-05-20 00:00:00.0"
+                                    }
+                                },
+                                "TCRMContractPartyRoleBObj": {
+                                    "ContractRoleIdPK": "661953876164827027",
+                                    "PartyId": "663252164648749265",
+                                    "ContractComponentId": "666453876164823912",
+                                    "RoleType": "1000017",
+                                    "RoleValue": "Amparado",
+                                    "StartDate": "2017-11-08 00:00:00.0",
+                                    "ContractPartyRoleLastUpdateDate": "2018-10-05 12:47:28.269",
+                                    "ContractPartyRoleLastUpdateUser": "batch user",
+                                    "ContractPartyRoleLastUpdateTxId": "202253876164815927",
+                                    "TCRMExtension": {
+                                        "ExtendedObject": "XContractRoleBObjExt",
+                                        "XContractRoleBObjExt": {}
+                                    },
+                                    "ComponentID": "1014011",
+                                    "DWLStatus": {
+                                        "Status": "0"
+                                    }
+                                },
+                                "ComponentID": "1013958",
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "ComponentID": "1014060",
+                            "DWLStatus": {
+                                "Status": "0"
+                            }
+                        },
+                        {
+                            "ContractIdPK": "668453875571644518",
+                            "CurrencyType": "1000001",
+                            "CurrencyValue": "Peso Colombiano",
+                            "AdminContractId": "325689741258963",
+                            "AdminSystemType": "1020001",
+                            "AdminSystemValue": "CRM-PS",
+                            "ContractLastUpdateDate": "2022-02-09 09:18:21.401917",
+                            "ContractLastUpdateUser": "batch user",
+                            "ContractLastUpdateTxId": "610453875571644121",
+                            "TerminationDate": "2000-06-04 00:00:00.0",
+                            "TCRMExtension": {
+                                "ExtendedObject": "XContractBObjExt",
+                                "XContractBObjExt": {}
+                            },
+                            "TCRMContractComponentBObj": {
+                                "ContractComponentIdPK": "666053875571646734",
+                                "ContractId": "668453875571644518",
+                                "ContractStatusType": "1030205",
+                                "ContractStatusValue": "CC-Terminada",
+                                "IssueDate": "2001-06-04 00:00:00.0",
+                                "ProductType": "1020101004",
+                                "ProductValue": "Ahorro puro",
+                                "ContractComponentLastUpdateDate": "2018-10-05 11:08:36.466",
+                                "ContractComponentLastUpdateUser": "batch user",
+                                "ContractComponentLastUpdateTxId": "610453875571644121",
+                                "ExpiryDate": "2019-09-06 00:00:00.0",
+                                "TCRMExtension": {
+                                    "ExtendedObject": "XContractComponentBObjExt",
+                                    "XContractComponentBObjExt": {}
+                                },
+                                "TCRMContractPartyRoleBObj": {
+                                    "ContractRoleIdPK": "669653875571648439",
+                                    "PartyId": "663252164648749265",
+                                    "ContractComponentId": "666053875571646734",
+                                    "RoleType": "1000002",
+                                    "RoleValue": "Titular cuenta conjunta",
+                                    "StartDate": "2018-10-05 11:08:36.483",
+                                    "ContractPartyRoleLastUpdateDate": "2018-10-05 11:08:36.483",
+                                    "ContractPartyRoleLastUpdateUser": "batch user",
+                                    "ContractPartyRoleLastUpdateTxId": "610453875571644121",
+                                    "TCRMExtension": {
+                                        "ExtendedObject": "XContractRoleBObjExt",
+                                        "XContractRoleBObjExt": {}
+                                    },
+                                    "ComponentID": "1014011",
+                                    "DWLStatus": {
+                                        "Status": "0"
+                                    }
+                                },
+                                "ComponentID": "1013958",
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "ComponentID": "1014060",
+                            "DWLStatus": {
+                                "Status": "0"
+                            }
+                        },
+                        {
+                            "ContractIdPK": "664852605154670191",
+                            "CurrencyType": "1000001",
+                            "CurrencyValue": "Peso Colombiano",
+                            "AdminContractId": "InitialLoad3209",
+                            "AdminSystemType": "1020031",
+                            "AdminSystemValue": "LIBRANZAS",
+                            "ContractLastUpdateDate": "2022-02-09 09:18:21.401917",
+                            "ContractLastUpdateUser": "batch user",
+                            "ContractLastUpdateTxId": "904852605154668669",
+                            "TCRMExtension": {
+                                "ExtendedObject": "XContractBObjExt",
+                                "XContractBObjExt": {
+                                    "XAcctOfficeCodeType": "1020009",
+                                    "XAcctOfficeCodeValue": "TEUSAQUILLO"
+                                }
+                            },
+                            "TCRMContractComponentBObj": {
+                                "ContractComponentIdPK": "664752605154674188",
+                                "ContractId": "664852605154670191",
+                                "ContractStatusType": "1010000",
+                                "ContractStatusValue": "Activo",
+                                "IssueDate": "2005-09-24 00:00:00.0",
+                                "ProductType": "1020101001",
+                                "ProductValue": "Cuenta Pensión",
+                                "ContractComponentLastUpdateDate": "2018-05-11 10:12:26.74",
+                                "ContractComponentLastUpdateUser": "batch user",
+                                "ContractComponentLastUpdateTxId": "904852605154668669",
+                                "TCRMExtension": {
+                                    "ExtendedObject": "XContractComponentBObjExt",
+                                    "XContractComponentBObjExt": {}
+                                },
+                                "TCRMContractPartyRoleBObj": {
+                                    "ContractRoleIdPK": "664052605154683498",
+                                    "PartyId": "663252164648749265",
+                                    "ContractComponentId": "664752605154674188",
+                                    "RoleType": "1000001",
+                                    "RoleValue": "Titular cuenta principal",
+                                    "StartDate": "2017-11-10 00:00:00.0",
+                                    "ContractPartyRoleLastUpdateDate": "2018-05-11 10:12:26.833",
+                                    "ContractPartyRoleLastUpdateUser": "batch user",
+                                    "ContractPartyRoleLastUpdateTxId": "904852605154668669",
+                                    "TCRMExtension": {
+                                        "ExtendedObject": "XContractRoleBObjExt",
+                                        "XContractRoleBObjExt": {
+                                            "XBeneficiaryPercent": "0.524000000"
+                                        }
+                                    },
+                                    "ComponentID": "1014011",
+                                    "DWLStatus": {
+                                        "Status": "0"
+                                    }
+                                },
+                                "ComponentID": "1013958",
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "ComponentID": "1014060",
+                            "DWLStatus": {
+                                "Status": "0"
+                            }
+                        },
+                        {
+                            "ContractIdPK": "665452475637572650",
+                            "CurrencyType": "1000001",
+                            "CurrencyValue": "Peso Colombiano",
+                            "AdminContractId": "4859265004015412924",
+                            "AdminSystemType": "1000003",
+                            "AdminSystemValue": "SAP-ERP",
+                            "ContractLastUpdateDate": "2022-02-09 09:18:21.401917",
+                            "ContractLastUpdateUser": "batch user",
+                            "ContractLastUpdateTxId": "652454386574412880",
+                            "EndDate": "2014-03-31 00:00:00.0",
+                            "TerminationDate": "2014-03-31 00:00:00.0",
+                            "TCRMExtension": {
+                                "ExtendedObject": "XContractBObjExt",
+                                "XContractBObjExt": {
+                                    "XAcctOfficeCodeType": "1020280",
+                                    "XAcctOfficeCodeValue": "MANIZALES"
+                                }
+                            },
+                            "TCRMContractComponentBObj": {
+                                "ContractComponentIdPK": "665752475637577999",
+                                "ContractId": "665452475637572650",
+                                "ContractStatusType": "1010102",
+                                "ContractStatusValue": "A-No redimido",
+                                "IssueDate": "2012-07-27 00:00:00.0",
+                                "ProductType": "1020201000",
+                                "ProductValue": "Tarjetas de Crédito",
+                                "ContractComponentLastUpdateDate": "2018-12-03 14:35:47.125",
+                                "ContractComponentLastUpdateUser": "batch user",
+                                "ContractComponentLastUpdateTxId": "652454386574412880",
+                                "ExpiryDate": "2014-03-31 00:00:00.0",
+                                "TCRMExtension": {
+                                    "ExtendedObject": "XContractComponentBObjExt",
+                                    "XContractComponentBObjExt": {}
+                                },
+                                "TCRMContractPartyRoleBObj": {
+                                    "ContractRoleIdPK": "664452475637585034",
+                                    "PartyId": "663252164648749265",
+                                    "ContractComponentId": "665752475637577999",
+                                    "RoleType": "1000001",
+                                    "RoleValue": "Titular cuenta principal",
+                                    "StartDate": "2017-11-15 00:00:00.0",
+                                    "ContractPartyRoleLastUpdateDate": "2018-12-03 14:35:47.236",
+                                    "ContractPartyRoleLastUpdateUser": "batch user",
+                                    "ContractPartyRoleLastUpdateTxId": "652454386574412880",
+                                    "TCRMExtension": {
+                                        "ExtendedObject": "XContractRoleBObjExt",
+                                        "XContractRoleBObjExt": {}
+                                    },
+                                    "ComponentID": "1014011",
+                                    "DWLStatus": {
+                                        "Status": "0"
+                                    }
+                                },
+                                "ComponentID": "1013958",
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "ComponentID": "1014060",
+                            "DWLStatus": {
+                                "Status": "0"
+                            }
+                        },
+                        {
+                            "ContractIdPK": "664852658246105383",
+                            "CurrencyType": "1000001",
+                            "CurrencyValue": "Peso Colombiano",
+                            "AdminContractId": "JIMMYTEST2018MAY17",
+                            "AdminSystemType": "1000006",
+                            "AdminSystemValue": "TC-Firstvision",
+                            "ContractLastUpdateDate": "2022-02-09 09:18:21.401917",
+                            "ContractLastUpdateUser": "batch user",
+                            "ContractLastUpdateTxId": "234752658661567193",
+                            "EndDate": "2020-10-26 18:25:46.0",
+                            "TCRMExtension": {
+                                "ExtendedObject": "XContractBObjExt",
+                                "XContractBObjExt": {
+                                    "XAcctOfficeCodeType": "1020009",
+                                    "XAcctOfficeCodeValue": "TEUSAQUILLO"
+                                }
+                            },
+                            "TCRMContractComponentBObj": {
+                                "ContractComponentIdPK": "667252658246107084",
+                                "ContractId": "664852658246105383",
+                                "ContractStatusType": "1010000",
+                                "ContractStatusValue": "Activo",
+                                "IssueDate": "2005-09-24 00:00:00.0",
+                                "ProductType": "1020101001",
+                                "ProductValue": "Cuenta Pensión",
+                                "ContractComponentLastUpdateDate": "2018-05-17 14:50:15.708",
+                                "ContractComponentLastUpdateUser": "batch user",
+                                "ContractComponentLastUpdateTxId": "234752658661567193",
+                                "TCRMExtension": {
+                                    "ExtendedObject": "XContractComponentBObjExt",
+                                    "XContractComponentBObjExt": {}
+                                },
+                                "TCRMContractPartyRoleBObj": {
+                                    "ContractRoleIdPK": "669452658246108018",
+                                    "PartyId": "663252164648749265",
+                                    "ContractComponentId": "667252658246107084",
+                                    "RoleType": "1000001",
+                                    "RoleValue": "Titular cuenta principal",
+                                    "StartDate": "2017-11-10 00:00:00.0",
+                                    "ContractPartyRoleLastUpdateDate": "2018-05-17 14:50:15.711",
+                                    "ContractPartyRoleLastUpdateUser": "batch user",
+                                    "ContractPartyRoleLastUpdateTxId": "234752658661567193",
+                                    "TCRMExtension": {
+                                        "ExtendedObject": "XContractRoleBObjExt",
+                                        "XContractRoleBObjExt": {
+                                            "XBeneficiaryPercent": "0.524000000"
+                                        }
+                                    },
+                                    "ComponentID": "1014011",
+                                    "DWLStatus": {
+                                        "Status": "0"
+                                    }
+                                },
+                                "ComponentID": "1013958",
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "ComponentID": "1014060",
+                            "DWLStatus": {
+                                "Status": "0"
+                            }
+                        }
+                    ],
+                    "XPartyAssociationBObj": {
+                        "ComponentID": "1020026",
+                        "TCRMPersonBObj": {
+                            "PartyId": "663252164648749265",
+                            "DisplayName": "GILMA BRICEÑO",
+                            "PartyType": "P",
+                            "CreatedDate": "2018-03-21 10:34:47.483",
+                            "SinceDate": "1957-01-01 00:00:00.0",
+                            "SourceIdentifierType": "1020001",
+                            "SourceIdentifierValue": "CRM-PS",
+                            "PartyLastUpdateDate": "2018-03-21 10:34:47.491",
+                            "PartyLastUpdateUser": "batch user",
+                            "PartyLastUpdateTxId": "652252164648748319",
+                            "PersonPartyId": "663252164648749265",
+                            "BirthDate": "1969-06-02 00:00:00.0",
+                            "BirthPlaceType": "1000037",
+                            "BirthPlaceValue": "Colombia",
+                            "GenderType": "F",
+                            "HighestEducationType": "1000001",
+                            "HighestEducationValue": "Primaria",
+                            "NumberOfChildren": "0",
+                            "MaritalStatusType": "1000002",
+                            "MaritalStatusValue": "Soltero(a)",
+                            "PartyActiveIndicator": "Y",
+                            "PersonLastUpdateDate": "2018-03-21 10:34:47.492",
+                            "PersonLastUpdateUser": "batch user",
+                            "PersonLastUpdateTxId": "652252164648748319",
+                            "TCRMExtension": {
+                                "ExtendedObject": "XPersonBObjExt",
+                                "XPersonBObjExt": {
+                                    "XCustUpdateDate": "2004-03-17 00:00:00.0",
+                                    "XProfessionType": "1000999",
+                                    "XProfessionValue": "NO TIENE PROFESION",
+                                    "XHousingType": "1000003",
+                                    "XHousingValue": "Arrendada",
+                                    "XLastSalary": "0.00",
+                                    "XIncTaxDeclIndicator": "N"
+                                }
+                            },
+                            "TCRMPartyAddressBObj": {
+                                "PartyAddressIdPK": "665652605154634121",
+                                "PartyId": "663252164648749265",
+                                "AddressId": "666452605154628016",
+                                "AddressUsageType": "1000011",
+                                "AddressUsageValue": "Notificación",
+                                "StartDate": "2018-05-09 00:00:00.0",
+                                "PreferredAddressIndicator": "N",
+                                "SourceIdentifierType": "1000006",
+                                "SourceIdentifierValue": "TC-Firstvision",
+                                "AddressGroupLastUpdateDate": "2018-05-11 10:12:26.355",
+                                "AddressGroupLastUpdateUser": "batch user",
+                                "AddressGroupLastUpdateTxId": "680852605154626255",
+                                "LocationGroupLastUpdateDate": "2018-05-11 10:12:26.34",
+                                "LocationGroupLastUpdateUser": "batch user",
+                                "LocationGroupLastUpdateTxId": "680852605154626255",
+                                "TCRMAddressBObj": {
+                                    "AddressIdPK": "666452605154628016",
+                                    "AddressLineOne": "1-I",
+                                    "AddressLineTwo": "2-II",
+                                    "AddressLineThree": "3-III",
+                                    "City": "Tunja",
+                                    "ZipPostalCode": "17",
+                                    "ProvinceStateType": "1000011",
+                                    "ProvinceStateValue": "Bogotá, D. C.",
+                                    "CountryType": "1000037",
+                                    "CountryValue": "Colombia",
+                                    "AddressLastUpdateDate": "2018-05-11 10:12:26.279",
+                                    "AddressLastUpdateUser": "batch user",
+                                    "AddressLastUpdateTxId": "680852605154626255",
+                                    "TCRMExtension": {
+                                        "ExtendedObject": "XAddressBObjExt",
+                                        "XAddressBObjExt": {}
+                                    },
+                                    "ComponentID": "1013671",
+                                    "DWLStatus": {
+                                        "Status": "0"
+                                    }
+                                },
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "TCRMPartyContactMethodBObj": {
+                                "PartyContactMethodIdPK": "662153875571623499",
+                                "PartyId": "663252164648749265",
+                                "ContactMethodId": "662253875571618816",
+                                "ContactMethodUsageType": "1200006",
+                                "ContactMethodUsageValue": "Email envió extracto",
+                                "PreferredContactMethodIndicator": "Y",
+                                "StartDate": "2014-04-04 00:00:00.0",
+                                "SourceIdentifierType": "1020001",
+                                "SourceIdentifierValue": "CRM-PS",
+                                "ContactMethodGroupLastUpdateDate": "2018-10-05 11:08:36.286",
+                                "ContactMethodGroupLastUpdateUser": "batch user",
+                                "ContactMethodGroupLastUpdateTxId": "795253875571618792",
+                                "LocationGroupLastUpdateDate": "2018-10-05 11:08:36.233",
+                                "LocationGroupLastUpdateUser": "batch user",
+                                "LocationGroupLastUpdateTxId": "795253875571618792",
+                                "TCRMContactMethodBObj": {
+                                    "ContactMethodIdPK": "662253875571618816",
+                                    "ReferenceNumber": "PRUEBASOCHO@PRUEBAS.COM",
+                                    "ContactMethodType": "1200000",
+                                    "ContactMethodValue": "Correo electrónico",
+                                    "ContactMethodLastUpdateDate": "2018-10-05 11:08:36.187",
+                                    "ContactMethodLastUpdateUser": "batch user",
+                                    "ContactMethodLastUpdateTxId": "795253875571618792",
+                                    "DWLStatus": {
+                                        "Status": "0"
+                                    }
+                                },
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "TCRMPartyIdentificationBObj": {
+                                "IdentificationIdPK": "661552164648750946",
+                                "PartyId": "663252164648749265",
+                                "IdentificationType": "1000003",
+                                "IdentificationValue": "Cédula de Ciudadanía",
+                                "IdentificationNumber": "1004375397",
+                                "StartDate": "2017-11-09 00:00:00.0",
+                                "SourceIdentifierType": "1020001",
+                                "SourceIdentifierValue": "CRM-PS",
+                                "PartyIdentificationLastUpdateDate": "2018-03-21 10:34:47.508",
+                                "PartyIdentificationLastUpdateUser": "batch user",
+                                "PartyIdentificationLastUpdateTxId": "652252164648748319",
+                                "TCRMExtension": {
+                                    "ExtendedObject": "XIdentifierBObjExt",
+                                    "XIdentifierBObjExt": {
+                                        "XIssueDate": "1957-04-13 00:00:00.0",
+                                        "XIssueCountryType": "1000037",
+                                        "XIssueCountryValue": "Colombia"
+                                    }
+                                },
+                                "ComponentID": "1013782",
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "TCRMPersonNameBObj": {
+                                "PersonNameIdPK": "664052164648750658",
+                                "NameUsageType": "1",
+                                "NameUsageValue": "Legal",
+                                "GivenNameOne": "GILMA",
+                                "StdGivenNameOne": "GILMA",
+                                "GivenNameFour": "ROCA",
+                                "StdGivenNameFour": "ROCA",
+                                "LastName": "BRICEÑO",
+                                "StdLastName": "BRICEÑO",
+                                "PersonPartyId": "663252164648749265",
+                                "StartDate": "2017-11-09 00:00:00.0",
+                                "SourceIdentifierType": "1020001",
+                                "SourceIdentifierValue": "CRM-PS",
+                                "PersonNameLastUpdateDate": "2018-03-21 10:34:47.505",
+                                "PersonNameLastUpdateUser": "batch user",
+                                "PersonNameLastUpdateTxId": "652252164648748319",
+                                "LastUpdatedBy": "batch user",
+                                "LastUpdatedDate": "2018-03-21 10:34:47.505",
+                                "DWLStatus": {
+                                    "Status": "0"
+                                }
+                            },
+                            "ComponentID": "1013185",
+                            "DWLStatus": {
+                                "Status": "0"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
